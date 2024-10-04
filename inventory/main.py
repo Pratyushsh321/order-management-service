@@ -6,6 +6,8 @@ from pydantic import BaseModel # type: ignore
 
 app = FastAPI()
 
+# hello from remote
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000"],
